@@ -9,7 +9,7 @@
     <table class="top2">
     <tr>
         <td><a href="#4"><div class="circle1 bg4"><center>дослідження та спільні публікації</center></div></a></td>
-        <td><a href="#5"><div class="circle1 bg5"><center>Міністерством для організації закордонних стажувань молоді</center></div></a></td>
+        <td><a href="#5"><div class="circle1 bg5"><center>Oрганізації закордонних стажувань молоді</center></div></a></td>
     </tr></table>
 </div>
 
