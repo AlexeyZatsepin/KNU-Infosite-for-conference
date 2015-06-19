@@ -1,6 +1,7 @@
 <script language="JavaScript">
     window.history.back(-1);
     alert("Страница временно не доступна");
+    alert(window.pageYOffset);
 </script>
 
 <?php

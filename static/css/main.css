@@ -193,8 +193,11 @@ a:hover{
 .footer{
     background-image: url('../img/color_bg.jpg');
     background-position: 50% 60%;
-    min-height: 100px;
+    min-height: 80px;
     box-shadow: 0 0 15px rgba(0,0,0,0.5);
+    margin-bottom: 0;
+    min-width: 100%;
+
 }
 body{
     background-color: #FFFACD ;
@@ -217,4 +220,30 @@ table, th, td {
     background-color: aliceblue;
     border-collapse: collapse;
     box-shadow: 7px 10px 50px 0px rgba(71,67,71,0.52);
+}
+.upbutton {
+    user-select: none;
+    color: #ffffff;
+    background-color: gainsboro;
+    outline: none;
+    opacity: 0.6;
+    position: fixed;
+    left: 90%;
+    bottom: 20px;
+    height: 100px;
+    width:100px;
+    border: 3px inset ivory;
+    border-radius: 20% 100% 100%;
+    -webkit-box-shadow: 10px 15px 123px 6px rgba(171,171,171,1);
+    -moz-box-shadow: 10px 15px 123px 6px rgba(171,171,171,1);
+    box-shadow: 10px 15px 123px 6px rgba(171,171,171,1);
+    cursor: pointer;
+    display: block;
+    visibility: hidden;
+}
+.upbutton:hover{
+    opacity: 1;
+}
+.upbutton:active{
+    background-color: cornflowerblue;
 }

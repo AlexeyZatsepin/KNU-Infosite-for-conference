@@ -47,7 +47,7 @@
 
 
 </div>
-<!--page-->
+
 <div class="container">
 <?php include 'views/pages/'.$view.'.php';?>
 </div>
@@ -56,13 +56,12 @@
 
 
 
-<!-- footer-->
+
+<div class="upbutton">Up</div>
 <div class="footer">
- <a href="#">Up</a>
      <p>by Alex Zatsepin&copy;</p>
 </div>
 
-<script src="static/js/scroll.js"></script>
 <script src="static/js/jquery-1.11.2.min.js"></script>
 <script src="static/js/menu.js"></script>
 </body>
