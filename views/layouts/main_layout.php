@@ -58,8 +58,8 @@
 
 <!-- footer-->
 <div class="footer">
- <a href="#">Sheva</a>
-     <p>by Alex Zatsepin&copy;</p><p>KPI rules</p>
+ <a href="#">Up</a>
+     <p>by Alex Zatsepin&copy;</p>
 </div>
 
 <script src="static/js/scroll.js"></script>

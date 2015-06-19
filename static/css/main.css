@@ -215,4 +215,6 @@ body{
 table, th, td {
     border: 1px solid grey;
     background-color: aliceblue;
+    border-collapse: collapse;
+    box-shadow: 7px 10px 50px 0px rgba(71,67,71,0.52);
 }
