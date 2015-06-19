@@ -1,6 +1,6 @@
 <script language="JavaScript">
-    alert("Страница временно не доступна");
     window.history.back(-1);
+    alert("Страница временно не доступна");
 </script>
 
 <?php

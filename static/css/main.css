@@ -211,3 +211,8 @@ p{
 body{
     font-family: "Comic Sans MS", cursive;
 }
+
+table, th, td {
+    border: 1px solid grey;
+    background-color: aliceblue;
+}
