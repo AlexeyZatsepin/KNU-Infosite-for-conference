@@ -1,4 +1,4 @@
-<div class="grid-5">
+<!--<div class="grid-5">
 <table class="top3">
     <tr>
         <td><a href="#1"><div class="circle1 bg1" ><center>2008-2013</center></div></a></td>
@@ -11,7 +11,7 @@
         <td><a href="#4"><div class="circle1 bg4"><center>дослідження та спільні публікації</center></div></a></td>
         <td><a href="#5"><div class="circle1 bg5"><center>Oрганізації закордонних стажувань молоді</center></div></a></td>
     </tr></table>
-</div>
+</div>-->
 
 
 <div class="text">
