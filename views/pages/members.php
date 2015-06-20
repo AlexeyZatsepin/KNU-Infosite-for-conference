@@ -1,11 +1,10 @@
 <script language="JavaScript">
     window.history.back(-1);
     alert("Страница временно не доступна");
-    alert(window.pageYOffset);
 </script>
 
 <?php
-/*
+
 $i=0;
 $j=0;
 
@@ -20,12 +19,12 @@ while(false !==($dir=readdir($handle))){
 }
 for ($j=0 ;$j<=count($dirs);$j++){
 ?>
-<!--<div class="text">
+<div class="text">
     <div class="person">
     <img src="<?echo $path."/".$dirs[$j]."/photo.jpg"; ?>" class="portrait">
     <div class="description"><? echo $dirs[$j];?></div>
 </div>
-</div>-->
+</div>
 <?
 }
-?>*/
+?>

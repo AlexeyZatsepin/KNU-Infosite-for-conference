@@ -1,6 +1,6 @@
 <div class="grid-2">
-<a href="#lab"><div class="circle first"><center>Про лабораторії</center></div></a>
-<a href="#univ"><div class="circle second"><center>Про унiверситети</center></div></a>
+<a href="#lab" class="cir"><div class="circle first"><center>Про лабораторії</center></div></a>
+<a href="#univ" ><div class="circle second"><center>Про унiверситети</center></div></a>
 </div>
 <div class="text">
 <center><h1 id="lab">

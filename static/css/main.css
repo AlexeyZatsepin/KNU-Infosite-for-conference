@@ -221,6 +221,12 @@ table, th, td {
     border-collapse: collapse;
     box-shadow: 7px 10px 50px 0px rgba(71,67,71,0.52);
 }
+.cir{
+    display: inline-block;
+
+}
+html { overflow-x: hidden; }
+body { overflow-x: hidden; }
 .upbutton {
     user-select: none;
     color: #ffffff;
