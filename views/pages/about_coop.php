@@ -16,11 +16,11 @@
 <nav>
     <div class="navbar">
         <ul>
-            <li class="x1"><a href="#1">Розвиток Хімфаку</a></li>
-            <li id="2"><a href="#2">Амбасада Франції в Україні</a></li>
-            <li id="3"><a href="#3">Співпраця</a></li>
-            <li id="4"><a href="#4">Спільні дослідження</a></li>
-            <li id="5"><a href="#5">Закордонне навчання</a> </li>
+            <li class="nav"><a href="#1">Розвиток Хімфаку</a></li>
+            <li class="nav"><a href="#2">Амбасада Франції в Україні</a></li>
+            <li class="nav"><a href="#3">Співпраця</a></li>
+            <li class="nav"><a href="#4">Спільні дослідження</a></li>
+            <li class="nav"><a href="#5">Закордонне навчання</a> </li>
         </ul>
     </div>
 </nav>
