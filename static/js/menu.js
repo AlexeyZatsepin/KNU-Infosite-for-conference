@@ -29,7 +29,7 @@ var main = function()
         $(".upbutton").css("visibility", "visible").fadeIn('slow');
     }
     else {
-        $(".upbutton").css("visibility", "hidden").fadeOut();
+        $(".upbutton").css("visibility", "hidden").fadeOut('slow');
     }
     });
 
