@@ -49,7 +49,7 @@
 
 
 </div>
-
+<div class="main">
 <div class="container">
 <?php include 'views/pages/'.$view.'.php';?>
 </div>
@@ -61,10 +61,11 @@
 
 <div class="upbutton">Up</div>
 <footer>
-    <div class="footer">
+    <footer>
          <p>by Alex Zatsepin&copy;</p>
-    </div>
+    </footer>
 </footer>
+</div>
 <script src="static/js/jquery-1.11.2.min.js"></script>
 <script src="static/js/menu.js"></script>
 </body>
