@@ -4,6 +4,8 @@
 <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:400;300' rel='stylesheet' type='text/css'>
 <link href='static/css/main.css' rel='stylesheet'>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+
 <title><?php echo $title;?></title>
 </head>
 <body>
@@ -58,10 +60,11 @@
 
 
 <div class="upbutton">Up</div>
-<div class="footer">
-     <p>by Alex Zatsepin&copy;</p>
-</div>
-
+<footer>
+    <div class="footer">
+         <p>by Alex Zatsepin&copy;</p>
+    </div>
+</footer>
 <script src="static/js/jquery-1.11.2.min.js"></script>
 <script src="static/js/menu.js"></script>
 </body>

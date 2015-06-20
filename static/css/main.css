@@ -226,7 +226,12 @@ table, th, td {
 
 }
 html { overflow-x: hidden; }
-body { overflow-x: hidden; }
+body {
+    overflow-x: hidden;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
 .upbutton {
     user-select: none;
     color: #ffffff;
