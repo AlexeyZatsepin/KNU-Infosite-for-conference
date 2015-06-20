@@ -26,6 +26,21 @@ a:hover{
 }
 
 
+ul {
+    width: 100%;
+    list-style: none;
+
+}
+li {
+    list-style: none;
+    display: block;
+    float: left;
+    height: 37px;
+    font-weight: bold;
+    color: #ffffff;
+    padding: 5px 35px;
+    text-transform: uppercase;
+}
 
 /* Меню */
 .menu {
