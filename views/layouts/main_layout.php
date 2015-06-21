@@ -62,7 +62,7 @@
 <div class="upbutton">Up</div>
 <footer>
     <footer>
-         <p>by Alex Zatsepin&copy;</p>
+         <p id="footer">by Alex Zatsepin&copy;</p>
     </footer>
 </footer>
 </div>
