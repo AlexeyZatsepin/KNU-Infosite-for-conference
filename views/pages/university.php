@@ -1,10 +1,11 @@
 <div class="grid-2">
-<a href="#lab" class="cir"><div class="circle first"><center>Про лабораторії</center></div></a>
-<a href="#univ" ><div class="circle second"><center>Про унiверситети</center></div></a>
+<div class="animation roll-in-left" ><a href="#lab" class="cir"><div class="circle first"><center>Про лабораторії</center></div></a></div>
+<div class="animation roll-in-right" ><a href="#univ" ><div class="circle second"><center>Про унiверситети</center></div></a></div>
 </div>
 <div class="text">
-<center><h1 id="lab">
-Про міжнародні лабораторії</h1></center>
+
+<center>
+    <h1 id="lab">Про міжнародні лабораторії</h1></center>
 <p>У розвинених країнах світу, в тому числі в Європі, однією з прогресивних форм співробітництва є створення міжнародних лабораторій.
 Навіщо і що це дає? По-перше, це дає можливість об’єднати сильні кадри, бо нема сенсу співробітничати зі «слабкими».
 Роботи недостатньо високого рівня не пройдуть найближчого звіту. Продовження роботи міжнародної лабораторії можливе тільки за наявності

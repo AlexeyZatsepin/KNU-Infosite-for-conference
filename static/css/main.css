@@ -281,3 +281,7 @@ body {
 .upbutton:active{
     background-color: cornflowerblue;
 }
+.portrait{
+    max-height: 250px;
+    max-width: 250px;
+}

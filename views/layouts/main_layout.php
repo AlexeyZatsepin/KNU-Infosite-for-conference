@@ -4,6 +4,7 @@
 <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:400;300' rel='stylesheet' type='text/css'>
 <link href='static/css/main.css' rel='stylesheet'>
+<link rel="stylesheet" href="static/css/awesome.min.css">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
 
 <title><?php echo $title;?></title>
@@ -43,7 +44,7 @@
         <input type="submit" hidden="hidden">
     </form></div>
 
-    <a href="index.php"> <img src="static/img/4.png" class="auto"></a>
+    <div class="animation turn-in-x"><a href="index.php"> <img src="static/img/4.png" class="auto"></a></div>
 
 
 
