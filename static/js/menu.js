@@ -31,11 +31,13 @@ var main = function()
     else {
         $(".upbutton").css("visibility", "hidden").fadeOut('slow');
     }
+
     });
 
     $(".upbutton").click(function(){
         $('html,body').animate({scrollTop: 0},'500','swing');
     });
+
 };
 
 $(document).ready(main);

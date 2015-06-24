@@ -25,6 +25,7 @@
     </div>
 </nav>
 <br>
+<br>
 <div class="text">
     <div class="animation fade-in-right">
 <center><h1 id="1">Розвиток міжнародного співробітництва за участю хімічного факультету з 2008 по 2013 рр</h1></center></div>

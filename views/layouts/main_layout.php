@@ -14,8 +14,9 @@
     <!-- Menu icon -->
     <div class="icon-close">
         <img src="http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/uber/close.png">
-    </div>
-    <!-- Menu -->
+        <!-- <i class="fa fa-chevron-circle-left"></i>-->
+     </div>
+     <!-- Menu -->
     <ul>
         <li><a href="index.php?view=index">Про конферецію</a></li>
         <li><a href="index.php?view=about_coop">Про співпрацю</a></li>
@@ -34,20 +35,27 @@
 
 <!-- switch-->
     <form style="position: absolute; right: 1%; top: 7%;" method="post"  onsubmit="<? echo $_SESSION['NowLang'] = $_POST['select_language']?>"   action="<? echo  "index.php?view=".$_GET['view']?>">
-        <select name="select_language" onchange="this.form.submit()" >
-            <?  for($i=0; $i<count($LangArray); $i++){
+        <label>
+            <select name="select_language" onchange="this.form.submit()">
+                <?  for($i=0; $i<count($LangArray); $i++){
                 if ($_SESSION['NowLang']==$LangArray[$i]) {
                     echo "<option value=\"$LangArray[$i]\" selected > $LangArray[$i]</option>";
                 }else
-                echo "<option value=\"$LangArray[$i]\" > $LangArray[$i]</option>"; }?>
-        </select>
+                echo "
+                <option value=\"$LangArray[$i]\"> $LangArray[$i]</option>
+                "; }?>
+            </select>
+        </label>
         <input type="submit" hidden="hidden">
     </form></div>
 
-    <div class="animation turn-in-x"><a href="index.php"> <img src="static/img/4.png" class="auto"></a></div>
-
-
-
+    <center>
+        <div class="animation turn-in-x">
+            <a href="index.php" id="main_img">
+                <img src="static/img/4.png" class="auto">
+            </a>
+        </div>
+    </center>
 
 </div>
 <div class="main">
@@ -58,16 +66,16 @@
 
 
 
-
-
-<div class="upbutton">Up</div>
+<div class="upbutton"><center><i class="fa fa-angle-up"></i></center> </div>
 <footer>
     <footer>
-         <p id="footer">by Alex Zatsepin&copy;</p>
+
+        <p id="footer">by Alex Zatsepin&copy;</p>
     </footer>
 </footer>
 </div>
 <script src="static/js/jquery-1.11.2.min.js"></script>
 <script src="static/js/menu.js"></script>
+
 </body>
 </html>

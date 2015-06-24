@@ -15,6 +15,7 @@ h1 {
      font-weight: 100;
      letter-spacing: 3px;
      color: #555;
+     display: inline-block;
 }
 a{
       text-decoration: none;
@@ -40,6 +41,11 @@ ul {
     color: #ffffff;
     padding: 5px 35px;
     text-transform: uppercase;
+}
+.navbar{
+    white-space: nowrap;
+    word-wrap: normal;
+    display: inline;
 }
 
 /* Меню */
@@ -110,7 +116,6 @@ ul {
 
 .auto {
     margin-top: 4%;
-    margin-left: 43%;
 }
 .container {
 
@@ -242,7 +247,9 @@ table, th, td {
 }
 .cir{
     display: inline-block;
-
+}
+#main_img{
+    display: inline-block;
 }
 html { overflow-x: hidden; }
 body {
@@ -267,7 +274,7 @@ body {
     height: 100px;
     width:100px;
     border: 3px inset ivory;
-    border-radius: 20% 100% 100%;
+    border-radius: 1% 100% 100%;
     -webkit-box-shadow: 10px 15px 123px 6px rgba(171,171,171,1);
     -moz-box-shadow: 10px 15px 123px 6px rgba(171,171,171,1);
     box-shadow: 10px 15px 123px 6px rgba(171,171,171,1);
