@@ -32,6 +32,9 @@ ul {
     list-style: none;
 
 }
+nav{
+    margin: auto;
+}
 .nav{
     list-style: none;
     display: block;
@@ -39,13 +42,14 @@ ul {
     height: 37px;
     font-weight: bold;
     color: #ffffff;
-    padding: 5px 35px;
+    padding: 5px 25px;
     text-transform: uppercase;
 }
 .navbar{
     white-space: nowrap;
     word-wrap: normal;
     display: inline;
+
 }
 
 /* Меню */
