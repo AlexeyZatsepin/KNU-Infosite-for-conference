@@ -28,7 +28,7 @@
 <!-- Menu body -->
 <div class="jumbotron">
     <div >
-    <div class="icon-menu">
+    <div class="icon-menu push-in-down">
         <i class="fa fa-bars"></i>
         Menu
     </div>

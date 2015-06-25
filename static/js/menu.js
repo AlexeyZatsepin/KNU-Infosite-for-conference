@@ -5,9 +5,11 @@ var main = function()
 {
 
     $('.icon-menu').click(function() {
-        $('.menu').animate({
+        var menu=$('.menu');
+        menu.animate({
             left: '0px'
         }, 200);
+
 
         $('body').animate({
             left: '285px'
@@ -16,9 +18,11 @@ var main = function()
 
 
     $('.icon-close').click(function() {
-        $('.menu').animate({
+        var menu=$('.menu');
+        menu.animate({
             left: '-285px'
         }, 200);
+        
         $('body').animate({
             left: '0'
         }, 200);
