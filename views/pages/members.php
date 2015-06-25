@@ -10,14 +10,13 @@ $j=0;
 $dirs=array();
 if ($handle =opendir($path)) {
 while(false !==($dir=readdir($handle))){
-    $i+=1;
-    if ($i>2){
+    if (($dir!=".")&&($dir!="..")){
         array_push($dirs, $dir);
     }
 }
 }
 $rl=true;
-for ($j=0 ;$j<=count($dirs)-1;$j++){
+for ($j=0 ;$j<=count($dirs);$j++){
 ?>
     <div class="article
     <?if ($rl==false){echo "slide-in-right";}else{echo "slide-in-left";}; ?>">
