@@ -38,6 +38,40 @@ var main = function()
         $('html,body').animate({scrollTop: 0},'500','swing');
     });
 
+
+
+
+    $('.article').click(function() {
+        $('.article').removeClass('current');
+        $('.description').hide();
+
+        $(this).addClass('current');
+        $(this).children('.description').show();
+    });
+
+    $(document).keypress(function(event) {
+        switch (event.which){
+            case 32:
+                $('.description').hide();
+                $('.current').children('.description').show();
+            break
+            case 83:
+                var currentArticle = $('.current');
+                var nextArticle = currentArticle.next();
+                currentArticle.removeClass('current');
+                nextArticle.addClass('current');
+            break
+            case 27:
+                $('.description').hide();
+            break
+            case 87:
+                var currentArticle = $('.current');
+                var prevArticle = currentArticle.prev();
+                currentArticle.removeClass('current');
+                prevArticle.addClass('current');
+            break
+        }
+    });
 };
 
 $(document).ready(main);
