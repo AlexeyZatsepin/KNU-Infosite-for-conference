@@ -16,7 +16,7 @@ while(false !==($dir=readdir($handle))){
 }
 }
 $rl=true;
-for ($j=0 ;$j<=count($dirs);$j++){
+for ($j=0 ;$j<=count($dirs)-1;$j++){
 ?>
     <div class="article
     <?if ($rl==false){echo "slide-in-right";}else{echo "slide-in-left";}; ?>">
