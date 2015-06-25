@@ -50,7 +50,7 @@
     </form></div>
 
     <center>
-        <div class="animation turn-in-x">
+        <div  id="ava" class="animation turn-in-x">
             <a href="index.php" id="main_img">
                 <img src="static/img/4.png" class="auto">
             </a>

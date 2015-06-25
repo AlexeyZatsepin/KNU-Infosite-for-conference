@@ -2,7 +2,7 @@
     window.history.back(-1);
     alert("Страница временно не доступна");
 </script>--><br>
-<center><h1>Участники</h1></center>
+<center><h1 class="scale-in delay-05s">Участники</h1></center>
 <div class="articles container">
 <?php
 $i=0;

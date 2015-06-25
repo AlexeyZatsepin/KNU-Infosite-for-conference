@@ -32,13 +32,27 @@ var main = function()
         $(".upbutton").css("visibility", "hidden").fadeOut('slow');
     }
 
+
+        $ ('#ava').each(function() {
+            var elPosition = $(this).offset().top; 	// Position of the element
+            var elHeight = $(this).height(); 		// Height of the element
+            var windowTop = $(window).scrollTop(); 	// Top of the window
+            var windowHeight = $(window).height(); 	// Height of the window
+            if (elPosition < windowTop + windowHeight - elHeight) {
+                $(this).addClass("animation turn-in-x");
+            } 						                   // adds the class wheh the element is fully in the visible area of the window
+            if (elPosition > windowTop + windowHeight) {
+                $(this).removeClass("animation turn-in-x");
+            } 						                   // removes the class when the element is not visible in the window
+            if (elPosition + elHeight < windowTop) {
+                $(this).removeClass("animation turn-in-x");
+            } 						                   // removes the class when the element is not visible in the window
+        });
     });
 
     $(".upbutton").click(function(){
         $('html,body').animate({scrollTop: 0},'500','swing');
     });
-
-
 
 
     $('.article').click(function() {
@@ -48,28 +62,27 @@ var main = function()
         $(this).addClass('current');
         $(this).children('.description').show();
     });
+    var currentArticle = $('.current');
 
     $(document).keypress(function(event) {
         switch (event.which){
             case 32:
                 $('.description').hide();
                 $('.current').children('.description').show();
-            break
+            break;
             case 83:
-                var currentArticle = $('.current');
                 var nextArticle = currentArticle.next();
                 currentArticle.removeClass('current');
                 nextArticle.addClass('current');
-            break
+            break;
             case 27:
                 $('.description').hide();
-            break
+            break;
             case 87:
-                var currentArticle = $('.current');
                 var prevArticle = currentArticle.prev();
                 currentArticle.removeClass('current');
                 prevArticle.addClass('current');
-            break
+            break;
         }
     });
 };
